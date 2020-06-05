@@ -1,0 +1,35 @@
+body { margin:0; background:#FFFFFF; font-size: 12pt; color:#333333; font-family: "DejaVu Sans Mono"; }
+
+/* 版頭 */
+.headArea { margin:0 auto; width:1000px; overflow:hidden; }
+.head-L { float:left; padding:10px 0px 0px 0px; }
+.head-R { float:right; padding-top:70px; }
+
+/* 清單樣式 */
+ul, li { margin:0; padding:0; list-style:none; }
+a { text-decoration:none; }
+/* 版頭按鈕列 */
+.headBtnArea{ width:100%; background:#727272; overflow:hidden; }
+.headBtn{ margin:0 auto; width:1000px; }
+.headBtn li { float:left; padding:15px 0px; }
+a.btn1{ padding:15px 30px; background:#727272; color:#FFFFFF; border-right:1px #000000 solid; }
+a:hover.btn1{ background:#000000; color:#FFFF00; }
+.Lline { border-left:1px #000000 solid; }
+
+/* 內頁版身 */
+.bodyArea { margin:0 auto; width:1000px; overflow:hidden; }
+.body-L { float:left; width:240px; padding:10px 0px; margin-right:10px; overflow:hidden; }
+.body-R { width:750px; padding:10px 0px; min-height:300px; overflow:hidden; }
+
+/* 首頁版身-隨機呈現產品圖片區 */
+.index-tab { margin:0 auto; width:760px; overflow:hidden; }
+.tabtit { padding:20px; text-align:center; }
+.tab4s { float:left; margin:5px; width:176px; height:176px; border:1px #2e2e2e solid; z-index:1; position:relative; }
+.tab4s img { width:174px; height:174px; }
+.tab4s-tit { z-index:2; position:absolute; width:154px; text-align:center; bottom:0; left:0; padding:10px; background:rgba(0,0,0,0.7); color:#FFFFFF;}
+
+/* 版尾 */
+.footerArea { width:100%; background:#727272; box-shadow:0px 0px 10px #000000; }
+.footer { margin:0 auto; width:1000px; padding:10px 0px; color:#FFFFFF; line-height:25px; overflow:hidden; }
+.footer-L { float:left; }
+.footer-R { float:right; padding-top:40px; }
